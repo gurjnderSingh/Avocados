@@ -17,16 +17,19 @@ struct AvocadosView: View {
             Spacer()
             Image("avocado")
                 .shadow(color: Color("ColorBlackTransparentDark"), radius: 12, x: 0, y: 8)
-                .scaleEffect(pulsateAnimation ? 1 : 0.9)
-                .opacity(pulsateAnimation ? 1 : 0.9)
-                .animation(Animation.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: 10)
+                .scaleEffect(pulsateAnimation ? 1 : 0.4)
+                .opacity(pulsateAnimation ? 1 : 0.1)
+//                .animation(.easeInOut(duration: 1.0), value: 1)
+               //.animation(Animation.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: 10)
+                //.animation(.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: 1)
             
             VStack {
                 Text("Avocados")
                     .font(.system(size: 42, weight: .bold, design: .serif))
                     .foregroundColor(Color.white)
                     .padding()
-                .shadow(color: Color("ColorBlackTransparentDark"), radius: 4, x: 0, y: 4)
+                    .shadow(color: Color("ColorBlackTransparentDark"), radius: 4, x: 0, y: 4)
+                    .scaleEffect(pulsateAnimation ? 1 : 0.4)
                 
                 Text("Creamy, green, and full of nutrients! Avocado is a powerhouse ingredient at any meal. Enjoy these handpicked avocado recipes for breakfast, lunch, dinner & more!")
                     .lineLimit(nil)
@@ -44,7 +47,9 @@ struct AvocadosView: View {
         )
         .edgesIgnoringSafeArea(.all)
         .onAppear {
-            self.pulsateAnimation.toggle()
+            withAnimation(.easeInOut(duration: 1.2).repeatForever(autoreverses: true)) {
+                self.pulsateAnimation.toggle()
+            }
         }
     }
 }
