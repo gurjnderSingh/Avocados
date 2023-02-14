@@ -19,9 +19,6 @@ struct AvocadosView: View {
                 .shadow(color: Color("ColorBlackTransparentDark"), radius: 12, x: 0, y: 8)
                 .scaleEffect(pulsateAnimation ? 1 : 0.4)
                 .opacity(pulsateAnimation ? 1 : 0.1)
-//                .animation(.easeInOut(duration: 1.0), value: 1)
-               //.animation(Animation.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: 10)
-                //.animation(.easeInOut(duration: 1.5).repeatForever(autoreverses: true), value: 1)
             
             VStack {
                 Text("Avocados")
