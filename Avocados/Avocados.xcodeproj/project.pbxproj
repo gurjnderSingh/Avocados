@@ -16,6 +16,8 @@
 		182619392998ADE600022543 /* RipeningStagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182619382998ADE600022543 /* RipeningStagingView.swift */; };
 		1826193B2998ADF600022543 /* SettngsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826193A2998ADF600022543 /* SettngsView.swift */; };
 		1826193D2998AE0100022543 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1826193C2998AE0100022543 /* AppView.swift */; };
+		18E99FBE299CB30C00E22888 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E99FBD299CB30C00E22888 /* HeaderModel.swift */; };
+		18E99FC0299CB36500E22888 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E99FBF299CB36500E22888 /* HeaderData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		182619382998ADE600022543 /* RipeningStagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagingView.swift; sourceTree = "<group>"; };
 		1826193A2998ADF600022543 /* SettngsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettngsView.swift; sourceTree = "<group>"; };
 		1826193C2998AE0100022543 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		18E99FBD299CB30C00E22888 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		18E99FBF299CB36500E22888 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		182619332998ADAE00022543 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				18E99FBF299CB36500E22888 /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -91,6 +96,7 @@
 		182619342998ADB200022543 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				18E99FBD299CB30C00E22888 /* HeaderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,6 +190,8 @@
 				182619252998A4A700022543 /* AvocadosApp.swift in Sources */,
 				182619372998ADCB00022543 /* AvocadosView.swift in Sources */,
 				1826193B2998ADF600022543 /* SettngsView.swift in Sources */,
+				18E99FBE299CB30C00E22888 /* HeaderModel.swift in Sources */,
+				18E99FC0299CB36500E22888 /* HeaderData.swift in Sources */,
 				18092FD8299BFA1800F3EB95 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
