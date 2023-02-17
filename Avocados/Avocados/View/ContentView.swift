@@ -11,6 +11,7 @@ struct ContentView: View {
     
     //MARK: - PROPERTIES
     var headers: [Header] = headerData
+    var facts: [Fact] = factsData
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: true) {
@@ -32,6 +33,23 @@ struct ContentView: View {
                 
                 DishesView()
                     .frame(maxWidth: 640)
+                
+                //MARK: - AVOCADO FACTS
+                
+                Text("Avocado Facts")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                
+                ScrollView(.horizontal, showsIndicators: true) {
+                    HStack(spacing: 60) {
+                        ForEach(facts) { fact in
+                            FactsView(fact: fact)
+                        }
+                    }
+                    .padding(.vertical)
+                    .padding(.leading, 60)
+                    .padding(.trailing,20)
+                }
                 
                 // MARK: - FOOTER
                 
