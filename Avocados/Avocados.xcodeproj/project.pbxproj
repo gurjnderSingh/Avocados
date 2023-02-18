@@ -25,6 +25,7 @@
 		18E7C6B729A1394C0066CA46 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6B629A1394C0066CA46 /* RecipeCardView.swift */; };
 		18E7C6B929A13F3C0066CA46 /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6B829A13F3C0066CA46 /* RecipeRatingView.swift */; };
 		18E7C6BB29A13FAE0066CA46 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6BA29A13FAE0066CA46 /* RecipeCookingView.swift */; };
+		18E7C6BD29A140690066CA46 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6BC29A140690066CA46 /* RecipeDetailView.swift */; };
 		18E99FBE299CB30C00E22888 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E99FBD299CB30C00E22888 /* HeaderModel.swift */; };
 		18E99FC0299CB36500E22888 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E99FBF299CB36500E22888 /* HeaderData.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		18E7C6B629A1394C0066CA46 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		18E7C6B829A13F3C0066CA46 /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		18E7C6BA29A13FAE0066CA46 /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		18E7C6BC29A140690066CA46 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		18E99FBD299CB30C00E22888 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		18E99FBF299CB36500E22888 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 				18E7C6B629A1394C0066CA46 /* RecipeCardView.swift */,
 				18E7C6B829A13F3C0066CA46 /* RecipeRatingView.swift */,
 				18E7C6BA29A13FAE0066CA46 /* RecipeCookingView.swift */,
+				18E7C6BC29A140690066CA46 /* RecipeDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				18E7C6B729A1394C0066CA46 /* RecipeCardView.swift in Sources */,
 				18E7C6B529A1385E0066CA46 /* RecipeData.swift in Sources */,
 				18092FD8299BFA1800F3EB95 /* HeaderView.swift in Sources */,
+				18E7C6BD29A140690066CA46 /* RecipeDetailView.swift in Sources */,
 				18B197E8299FB38B007439A0 /* FactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
