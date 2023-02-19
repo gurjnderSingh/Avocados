@@ -29,6 +29,8 @@
 		18E99FBE299CB30C00E22888 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E99FBD299CB30C00E22888 /* HeaderModel.swift */; };
 		18E99FC0299CB36500E22888 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E99FBF299CB36500E22888 /* HeaderData.swift */; };
 		18EBC16729A23F7700344025 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBC16629A23F7700344025 /* RipeningView.swift */; };
+		18EBC16929A245B300344025 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBC16829A245B300344025 /* RipeningModel.swift */; };
+		18EBC16B29A24BA400344025 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBC16A29A24BA400344025 /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		18E99FBD299CB30C00E22888 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		18E99FBF299CB36500E22888 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 		18EBC16629A23F7700344025 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		18EBC16829A245B300344025 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		18EBC16A29A24BA400344025 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				18E99FBF299CB36500E22888 /* HeaderData.swift */,
 				18B197E7299FB38B007439A0 /* FactData.swift */,
 				18E7C6B429A1385E0066CA46 /* RecipeData.swift */,
+				18EBC16A29A24BA400344025 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 				18E99FBD299CB30C00E22888 /* HeaderModel.swift */,
 				18B197E5299FB35E007439A0 /* FactModel.swift */,
 				18E7C6B229A137AA0066CA46 /* RecipeModel.swift */,
+				18EBC16829A245B300344025 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -219,8 +225,10 @@
 			files = (
 				182619392998ADE600022543 /* RipeningStagingView.swift in Sources */,
 				18E7C6B929A13F3C0066CA46 /* RecipeRatingView.swift in Sources */,
+				18EBC16929A245B300344025 /* RipeningModel.swift in Sources */,
 				182619272998A4A700022543 /* ContentView.swift in Sources */,
 				1826193D2998AE0100022543 /* AppView.swift in Sources */,
+				18EBC16B29A24BA400344025 /* RipeningData.swift in Sources */,
 				182619252998A4A700022543 /* AvocadosApp.swift in Sources */,
 				182619372998ADCB00022543 /* AvocadosView.swift in Sources */,
 				1826193B2998ADF600022543 /* SettngsView.swift in Sources */,
