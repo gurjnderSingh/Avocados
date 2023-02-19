@@ -10,6 +10,8 @@ import SwiftUI
 struct RecipeDetailView: View {
     
     var recipe: Recipe
+    @State private var pulsate: Bool = false
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: true) {
@@ -56,6 +58,11 @@ struct RecipeDetailView: View {
 //                    VStack(alignment: .leading, spacing: 5) {
                         ForEach(recipe.instructions, id: \.self) { item in
                             VStack(alignment: .center, spacing: 5) {
+                                Image(systemName: "chevron.down.circle")
+                                    .resizable()
+                                    .frame(width: 42, height: 42, alignment: .leading)
+                                    .imageScale(.large)
+                                    .foregroundColor(Color("ColorGreenAdaptive"))
                                 Text(item)
                                     .lineLimit(nil)
                                     .multilineTextAlignment(.center)
@@ -68,6 +75,31 @@ struct RecipeDetailView: View {
                 .padding(.horizontal, 24)
                 .padding(.vertical, 12)
             }
+        }
+        .edgesIgnoringSafeArea(.top)
+        .overlay {
+            HStack {
+                Spacer()
+                VStack {
+                    Button {
+                        self.presentationMode.wrappedValue.dismiss()
+                    } label: {
+                        Image(systemName: "chevron.down.circle.fill")
+                            .font(.title)
+                            .foregroundColor(Color.white)
+                            .shadow(radius: 4)
+                            .opacity(self.pulsate ? 1 : 0.6)
+                            .scaleEffect(self.pulsate ? 1.2 : 0.8)
+                            .animation(Animation.easeInOut(duration: 1.5).repeatForever(autoreverses: true))
+                    }
+                    .padding(.trailing, 20)
+                    .padding(.top, 20)
+                    Spacer()
+                }
+            }
+        }
+        .onAppear() {
+            self.pulsate.toggle()
         }
     }
 }

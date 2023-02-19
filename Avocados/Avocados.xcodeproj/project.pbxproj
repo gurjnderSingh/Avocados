@@ -28,6 +28,7 @@
 		18E7C6BD29A140690066CA46 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E7C6BC29A140690066CA46 /* RecipeDetailView.swift */; };
 		18E99FBE299CB30C00E22888 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E99FBD299CB30C00E22888 /* HeaderModel.swift */; };
 		18E99FC0299CB36500E22888 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E99FBF299CB36500E22888 /* HeaderData.swift */; };
+		18EBC16729A23F7700344025 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBC16629A23F7700344025 /* RipeningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		18E7C6BC29A140690066CA46 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		18E99FBD299CB30C00E22888 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
 		18E99FBF299CB36500E22888 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		18EBC16629A23F7700344025 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				18E7C6B829A13F3C0066CA46 /* RecipeRatingView.swift */,
 				18E7C6BA29A13FAE0066CA46 /* RecipeCookingView.swift */,
 				18E7C6BC29A140690066CA46 /* RecipeDetailView.swift */,
+				18EBC16629A23F7700344025 /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				18E99FC0299CB36500E22888 /* HeaderData.swift in Sources */,
 				1831E7D9299E6D6B00FF80F3 /* DishesView.swift in Sources */,
 				18E7C6BB29A13FAE0066CA46 /* RecipeCookingView.swift in Sources */,
+				18EBC16729A23F7700344025 /* RipeningView.swift in Sources */,
 				18B197E6299FB35E007439A0 /* FactModel.swift in Sources */,
 				18B197E4299FAF5B007439A0 /* FactsView.swift in Sources */,
 				18E7C6B729A1394C0066CA46 /* RecipeCardView.swift in Sources */,
